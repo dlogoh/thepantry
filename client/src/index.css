@@ -144,7 +144,7 @@ nav {
   padding-bottom: 2rem;
 }
 
-/* === Recipe Carousel === */
+/* === Recipe Carousel ===
 
 .slider-container {
   display: flex;
@@ -211,7 +211,7 @@ nav {
 }
 
 /* css for manual slide navigation */
-.navigation-manual {
+/* .navigation-manual {
   position: absolute;
   width: 800px;
   margin-top: -40px;
@@ -249,10 +249,10 @@ nav {
 }
 #radio5:checked ~ .first {
   margin-left: -80%;
-}
+} */
 
 /* css for auto navigation */
-.navigation-auto {
+/* .navigation-auto {
   position: absolute;
   display: flex;
   width: 800px;
@@ -285,7 +285,7 @@ nav {
 }
 #radio5:checked ~ .navigation-auto .auto-btn5 {
   background: coral;
-}
+} */
 
 /* === Contact form === */
 .contact {
@@ -427,6 +427,20 @@ textarea {
 
   .card {
     margin-bottom: 2rem;
+  }
+
+  /* === Footer === */
+  .footer {
+    justify-content: center;
+  }
+
+  .footer h2 {
+    font-size: 1rem;
+    white-space: wrap;
+  }
+
+  .footer-icons {
+    display: flex;
   }
 }
 
