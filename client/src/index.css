@@ -297,7 +297,7 @@ nav {
 }
 
 .form-header {
-  padding-top: 3rem;
+  padding-top: 2rem;
   padding-bottom: 3rem;
 }
 
@@ -305,7 +305,7 @@ nav {
   margin-bottom: 1.5rem;
 }
 
-.form-control {
+/* .form-control {
   display: flex;
   border: 0;
 }
@@ -327,14 +327,14 @@ textarea {
   margin: 10px 0;
   box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
   width: 14rem;
-}
+} */
 
 /* === Footer === */
 .footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 4rem;
+  height: auto;
   color: #fff;
   background-color: #333;
 }
@@ -380,6 +380,20 @@ textarea {
 .contact-btn {
   font-size: 1.2rem;
   margin-top: -0.3rem;
+}
+
+/* Alerts */
+.alert {
+  padding: 0.8rem;
+  margin: 1rem 0;
+  opacity: 0.9;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.alert-danger {
+  background-color: firebrick;
+  color: #fff;
 }
 
 @media screen and (min-width: 800px) {
