@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, redirect } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import { login } from "../../actions/auth";
@@ -22,7 +22,7 @@ function Login({ login, isAuthenticated }) {
 
   // Redirect if logged in
   if (isAuthenticated) {
-    return redirect("/dashboard");
+    return <Navigate to='/dashboard' />;
   }
 
   return (

@@ -6,6 +6,8 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
+import Dashboard from "./components/dashboard/Dashboard";
+import PrivateRoute from "./components/routing/PrivateRoute";
 import Alert from "./components/shared/Alert";
 // Redux
 import { Provider } from "react-redux";
@@ -43,6 +45,10 @@ function App() {
             <Route path='/' element={<Contact />} />
             <Route path='/register' element={<Register />} />
             <Route path='/login' element={<Login />} />
+            <Route
+              path='/dashboard'
+              element={<PrivateRoute component={Dashboard} />}
+            />
           </Routes>
           <Footer />
         </div>
